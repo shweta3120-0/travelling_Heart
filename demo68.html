@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Wanderlust Travels</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #f0f8ff;
+    }
+    header {
+      background-color: #008080;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      background-color: #20b2aa;
+      text-align: center;
+      padding: 10px;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 30px;
+    }
+    .destination, .gallery img {
+      margin: 15px 0;
+    }
+    .gallery img {
+      width: 300px;
+      margin-right: 10px;
+    }
+    form input, form textarea {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+    }
+    footer {
+      background-color: #008080;
+      color: white;
+      text-align: center;
+      padding: 15px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Wanderlust Travels</h1>
+    <p>Explore the world with us</p>
+  </header>
+
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#destinations">Destinations</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="home">
+    <h2>Welcome to Wanderlust</h2>
+    <p>We help you discover the most beautiful places on Earth. From snowy mountains to tropical beaches, your adventure starts here.</p>
+    <button onclick="alert('Adventure awaits! 🌍✈️')">Click for Surprise</button>
+  </section>
+
+  <section id="destinations">
+    <h2>Top Destinations</h2>
+    <div class="destination">
+      <h3>Paris, France</h3>
+      <p>Romantic streets, Eiffel Tower, and world-class cuisine.</p>
+    </div>
+    <div class="destination">
+      <h3>Bali, Indonesia</h3>
+      <p>Relaxing beaches, lush jungles, and vibrant culture.</p>
+    </div>
+    <div class="destination">
+      <h3>New York, USA</h3>
+      <p>Skyscrapers, Broadway shows, and Central Park.</p>
+    </div>
+  </section>
+
+  <section id="gallery">
+    <h2>Travel Gallery</h2>
+    <div class="gallery">
+      <img src="https://via.placeholder.com/300x200?text=Paris" alt="Paris">
+      <img src="https://via.placeholder.com/300x200?text=Bali" alt="Bali">
+      <img src="https://via.placeholder.com/300x200?text=New+York" alt="New York">
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <form>
+      <label>Name:</label>
+      <input type="text" name="name" required>
+      <label>Email:</label>
+      <input type="email" name="email" required>
+      <label>Message:</label>
+      <textarea name="message" rows="5" required></textarea>
+      <input type="submit" value="Send">
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Wanderlust Travels. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
